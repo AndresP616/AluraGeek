@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluraGeek</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="img/logo.png" type="image/x-icon">
+        <meta name="Alurageek" content="Icono_libreria">  
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">      
+    </head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logo">
+        <h1>AluraGeek</h1>
+    </header>
+
+    <!-- Main Contenido -->
+    <main>
+        <!-- Sección de libro -->
+        <section id="libro">
+            <h2>Librería</h2>
+            <p>Explora, lee y crece en nuestra librería virtual</p>
+            <div id="libro-container"></div>                      
+            </div>
+            
+        </section>
+
+          <!-- Sección para agregar libros -->
+    <section id="agregar-libro">
+        <h1>Agregar Libro</h1>
+        <form id="form-agregar-libro">
+            <label for="nombre-libro">Nombre del Libro:</label>
+            <input type="text" id="nombre-libro" name="nombre-libro" required>
+
+            <label for="precio-libro">Precio:</label>
+            <input type="text" id="precio-libro" name="precio-libro" required>
+
+            <label for="imagen-libro">URL de la Imagen:</label>
+            <input type="text" id="imagen-libro" name="imagen-libro" required>
+
+            <!-- Contenedor de botones -->
+            <div class="botones">
+                <button type="submit">Agregar Libro</button>
+                <button type="reset">Limpiar</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Modal para mostrar la descripción del libro -->
+<div id="descripcion-modal" class="modal oculto">
+    <div class="modal-contenido">
+        <span class="cerrar-modal">&times;</span>
+        <h3 id="titulo-libro"></h3>
+        <p id="autor-libro"></p>
+        <p id="descripcion-libro"></p>
+    </div>
+</div>
+</main>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="tarjeta">
+        <h2>Contacto</h2>        
+        <form action="tu-url-aqui" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <img src="img/logo.png" alt="Logo" class="footer-logo">
+            <p>Desarrollado por <strong>AndresP</strong></p>
+            <p>&copy; 2024 Todos los derechos reservados | Desarrollado para <strong>AluraGeek</strong></p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/libro.js"></script>
+</body>
+</html>

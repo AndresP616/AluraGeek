@@ -1,0 +1,411 @@
+/* Estilos generales para la página */
+body {
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #483928;
+    box-sizing: border-box;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;  
+    font-weight: 600;  
+}
+
+header {
+    background-color: #614c35;
+    color: 333;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 90px; 
+    height: auto;
+    margin-right: 60px; 
+    background-color: transparent;    
+}
+
+/* Estilo para limitar la altura de la sección de libros */
+#libro {
+    height: 50vh;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #795f42;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+#libro h2 {
+    font-size: 29px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);  
+}
+
+#libro p {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);  
+}
+
+#libro-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
+    gap: 6px;
+    
+}
+
+.card {   
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 76%;
+    border: 1px solid #40484252;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: 20px;
+    padding: 16px;
+    margin-bottom: 10px;
+    min-height: 300px;
+    position: relative;
+    display: flex;
+
+}
+
+.descripcion {
+    display: none;
+    font-size: 14px;
+    color: #333;
+  }
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-container--info {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.card-container--value {
+    display: flex;    
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    position: relative;
+}
+
+.card-container--value p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.card-container--value img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Estilos para el título del libro */
+.card p {
+    font-size: 1.6em;  
+    font-weight: bold; 
+    color: #333;  
+    letter-spacing: 2px;  
+    text-transform: uppercase;  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);  
+    margin: 0 0 10px 0;  
+}
+
+
+#agregar-libro {
+    background-color: #795f42 ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    margin: 20px 0;
+}
+
+#agregar-libro h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.tarjeta {
+    max-width: 760px; 
+    margin: 0 auto; 
+    padding: 60px; 
+    background-color: #795f42; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    color: #333;
+    text-align: left;
+}
+
+.tarjeta h2 {
+    margin-bottom: 20px; 
+    font-size: 24px; 
+}
+
+.tarjeta label {
+    font-weight: bold;
+}
+
+.tarjeta input, 
+.tarjeta textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #333; 
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.tarjeta button {
+    padding: 10px 20px;
+    background-color: #614c35;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tarjeta button:hover {
+    background-color: #4e3a29;
+}
+
+/* Estilo para los campos del formulario */
+.tarjeta input, 
+.tarjeta textarea, 
+.tarjeta select {
+    background-color: #b39c82; 
+    color: #333; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border-radius: 4px; 
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+/* Estilo para los campos al pasar el cursor o hacer foco */
+.tarjeta input:focus, 
+.tarjeta textarea:focus, 
+.tarjeta select:focus {
+    background-color: #d59e5a; 
+    border-color: #795f42; 
+    outline: none; 
+}
+
+/* Estilo para el texto dentro de los campos de formulario */
+.tarjeta input::placeholder, 
+.tarjeta textarea::placeholder {
+    color: #3e3a2a; 
+    font-style: italic; 
+}
+
+/* Botón del formulario */
+.tarjeta button {
+    padding: 10px 20px;
+    background-color: #614c35; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tarjeta button:hover {
+    background-color: #4e3a29; 
+}
+
+
+label {
+    font-size: 16px;
+}
+
+input {
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #55604e;
+}
+
+input:focus {
+    outline: none;
+    border-color: #55604e;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #a9855d;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+button[type="reset"] {
+    background-color: #a9855d;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.card .delete-icon {
+    width: 30px !important;
+    height: 30px !important;
+    cursor: pointer;
+    position: absolute;    
+    bottom: 10px;
+}
+
+.delete-icon {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    align-self: flex-end; 
+    margin-top: auto;
+    opacity: 0.9; 
+    transition: opacity 0.3s ease;    
+}
+
+.delete-icon:hover {
+    opacity: 1;  
+    transform: scale(1.3);  
+  }
+
+/* Estilos para la ventana modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.oculto {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contenido {
+    background-color: #917250;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+.cerrar-modal {
+    cursor: pointer;
+    float: right;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+    background-color: #614c35 ;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    height: 30%; 
+    margin: 0 auto;    
+}
+
+.footer-logo {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer strong {
+    color: #252d1a;
+}
+
+/* Media Query para pantallas pequeñas (hasta 768px de ancho) */
+@media screen and (max-width: 768px) {
+    /* Cambiar la disposición de los elementos */
+    #libro-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%; 
+        margin: 10px 0; 
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    #libro h2 {
+        font-size: 20px; 
+    }
+
+    footer {
+        font-size: 12px; 
+        padding: 15px;
+    }
+
+    footer .footer-logo {
+        width: 80px; 
+    }
+}
