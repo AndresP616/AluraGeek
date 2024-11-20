@@ -5,112 +5,112 @@
     "nombre": "Hobbit",
     "Autor" :"Tolkien",
     "descripcion":"Es una novela de fantasía, publicada por primera vez en 1937. La obra se ha convertido en un clásico de la literatura y es considerada una de las obras fundacionales del género de fantasía moderna. La historia sigue las aventuras de Bilbo Baggins, un hobbit que lleva una vida tranquila en la Comarca, un lugar idílico habitado por criaturas similares a los humanos, pero más pequeños. Ha sido adaptado a diversas formas de medios, incluyendo una famosa trilogía de películas dirigida por Peter Jackson, que se estrenó entre 2012 y 2014. Estas adaptaciones ampliaron la historia original y la conectaron más directamente con la narrativa de El Señor de los Anillos. La obra ha dejado un legado duradero en la literatura y ha inspirado a generaciones de escritores, cineastas y artistas, solidificando a Tolkien como uno de los padres de la fantasía moderna. Sigue siendo un libro apreciado tanto por jóvenes como por adultos, continuando su influencia en la cultura popular.",
-    "imagen": "public/img/hobbit.png",
+    "imagen": "/img/hobbit.png",
     "precio": "$20.00"
   },
   {
     "nombre": "Lo bello lo triste",
     "Autor" :"Yasunari Kawabata",
     "descripcion": "Es una novela publicada en 1962. Esta obra es una exploración profunda de la belleza, la tristeza y las complejidades de las relaciones humanas, temas que son recurrentes en la obra de Kawabata. es considerada una de las obras maestras de Yasunari Kawabata. La novela ha sido traducida a varios idiomas y ha contribuido a establecer a Kawabata como uno de los autores más importantes de la literatura japonesa. Su capacidad para explorar las complejidades de la experiencia humana y su habilidad para evocar la belleza en medio de la tristeza hacen de esta obra una lectura conmovedora y significativa. Kawabata continúa siendo una figura influyente en la literatura mundial, y es un testimonio de su talento y profundidad como narrador. ",
-    "imagen": "public/img/lo-bello-lo-triste.png",
+    "imagen": "p/img/lo-bello-lo-triste.png",
     "precio": "$15.00"
   },
   {
     "nombre": "La casa de las durmientes",
     "Autor" :"Yasunari Kawabata",
     "descripcion": "Es una novela publicada en 1969. Esta obra es conocida por su estilo poético y su exploración de temas como el deseo, la soledad y la belleza efímera. El estilo de Kawabata es lírico y evocador, con una prosa que invita a la contemplación. Su habilidad para capturar la esencia de las emociones y crear una atmósfera poética es evidente a lo largo de la novela, lo que permite al lector experimentar la tristeza y el anhelo de los personajes. Kawabata, ganador del Premio Nobel de Literatura en 1968, es conocido por su capacidad para explorar los matices de la experiencia humana, y es un claro ejemplo de su maestría como narrador. La obra invita a los lectores a reflexionar sobre la complejidad de las relaciones humanas y el anhelo de conexión en un mundo a menudo solitario.",
-    "imagen": "public/img/la-casa-de-las-durmientes.png",
+    "imagen": "/img/la-casa-de-las-durmientes.png",
     "precio": "$18.00"
   },
   {
     "nombre": "Soy un gato",
     "autor":"Natsume Sōseki",
     "descripcion": "Publicada por primera vez en 1905. Esta obra es una de las más reconocidas de Sōseki y es considerada un clásico de la literatura japonesa. Ha dejado un legado duradero en la literatura japonesa y sigue siendo estudiada y apreciada por su ingenio y su aguda crítica social. La obra ha influido en generaciones de escritores y ha sido traducida a varios idiomas, lo que ha permitido que su humor y sus observaciones sobre la naturaleza humana resuenen en un público más amplio. Natsume Sōseki es considerado uno de los escritores más importantes de Japón, y esta novela es un testimonio de su talento para combinar el humor con una profunda reflexión sobre la vida y la sociedad. ",
-    "imagen": "public/img/soy-un-gato.png",
+    "imagen": "/img/soy-un-gato.png",
     "precio": "$22.00"
   },
   {
     "nombre": "Indigno de ser humano",
     "autor":"Osamu Dazai",
     "descripcion": "Es una novela publicada en 1948. Es considerada una de las obras más importantes de la literatura japonesa del siglo XX y refleja las luchas del autor con la identidad, la alienación y la desesperación. Ha sido muy influyente en la literatura japonesa y ha resonado con muchos lectores que han enfrentado luchas similares con la identidad y la alienación. La obra se ha convertido en un clásico, estudiada en escuelas y universidades, y ha sido traducida a múltiples idiomas. Osamu Dazai es considerado uno de los autores más importantes de Japón, y su obra sigue siendo relevante en la actualidad por su exploración honesta y desgarradora de la condición humana. Invita a los lectores a reflexionar sobre la lucha por encontrar significado en un mundo a menudo indiferente y sobre la importancia de las conexiones humanas. ",
-    "imagen": "public/img/indigno-de-ser-humano.png",
+    "imagen": "/img/indigno-de-ser-humano.png",
     "precio": "$19.00"
   },
   {
     "nombre": "Azul Casi Transparente",
     "autor":"Ryu Murakami",
     "descripcion": "Novela publicada en 1976. Esta obra es considerada una de las primeras y más impactantes del autor, marcando su entrada en la escena literaria japonesa y estableciéndolo como una voz provocadora y única. Ha sido aclamada por su audaz representación de la juventud y su exploración de temas difíciles y provocativos. La novela ha tenido un impacto significativo en la literatura contemporánea japonesa y ha influido en generaciones de escritores. Ryu Murakami es reconocido por su capacidad para abordar cuestiones sociales y emocionales a través de una narrativa provocativa y visceral. Es un testimonio de su talento para explorar la complejidad de la vida moderna y la lucha por encontrar sentido en un mundo a menudo caótico y desolador. La obra invita a la reflexión sobre la naturaleza de la juventud, la violencia y la búsqueda de significado en la vida. ",
-    "imagen": "public/img/azul-casi-transparente.png",
+    "imagen": "/img/azul-casi-transparente.png",
     "precio": "$16.00"
   },
   {
     "nombre": "Al Sur de la Frontera al oeste del sol",
     "autor":"Haruki Murakami",
     "descripcion": "Es una novela publicada en 1992. Este libro es conocido por su exploración de temas como la nostalgia, el amor y las relaciones humanas, así como por su estilo característico y melancólico. El estilo de Murakami en esta novela es introspectivo y poético, con una prosa que permite al lector sumergirse en los pensamientos y sentimientos del protagonista. La narrativa combina elementos de realismo mágico con una profunda exploración emocional, creando una atmósfera única. La novela ha sido traducida a varios idiomas y ha resonado con un amplio público, atrayendo a quienes buscan reflexionar sobre la vida, el amor y la búsqueda de significado. Murakami continúa siendo una figura influyente en la literatura, y esta obra es un testimonio de su habilidad para explorar la complejidad de las relaciones humanas y la experiencia de la vida moderna. ",
-    "imagen": "public/img/al-sur-de-la-frontera-al-oeste-del-sol.png",
+    "imagen": "/img/al-sur-de-la-frontera-al-oeste-del-sol.png",
     "precio": "$18.00"
   },
   {
     "nombre": "Kokoro",
     "autor":"Natsume Sōseki",
     "descripcion": "Es una novela publicada en 1914. Considerada una de sus obras más importantes, Kokoro explora temas de la soledad, la identidad y las complejidades de las relaciones humanas. Su título, que significa corazón en japonés, refleja la profunda exploración emocional que Sōseki realiza a lo largo de la narración. El estilo de Sōseki es introspectivo y lírico, con una prosa rica en matices que permite al lector sumergirse en los pensamientos y emociones de los personajes. A través de descripciones detalladas y diálogos profundos, la novela invita a la reflexión sobre la condición humana. Kokoro es considerada una de las obras maestras de la literatura japonesa y ha dejado un impacto duradero en la cultura literaria. La novela ha sido traducida a numerosos idiomas y ha influido en generaciones de escritores y lectores. Natsume Sōseki es reconocido como uno de los autores más importantes de Japón, y su habilidad para explorar la psicología humana y las complejidades de la vida ha hecho que Kokoro sea una lectura conmovedora y significativa. La obra invita a los lectores a reflexionar sobre sus propias vidas, relaciones y la búsqueda de significado en un mundo en constante cambio. ",
-    "imagen": "public/img/kokoro.png",
+    "imagen": "/img/kokoro.png",
     "precio": "$17.00"
   },
   {
     "nombre": "País de nieve",
     "autor":"Yasunari Kawabata",
     "descripcion": "Es una novela publicada por primera vez en 1947. Esta obra es una de las más reconocidas de Kawabata y le valió el Premio Nobel de Literatura en 1968, convirtiéndolo en el primer autor japonés en recibir este galardón. Ha sido aclamada por su profundidad emocional y su representación de la experiencia humana. La obra ha influido en la literatura japonesa y ha sido traducida a múltiples idiomas, permitiendo que su belleza y tristeza resuenen con lectores de todo el mundo. Yasunari Kawabata es considerado uno de los más grandes escritores de Japón, y es un testimonio de su talento para explorar las complejidades de las relaciones humanas y la búsqueda de belleza en la vida. La novela invita a la reflexión sobre la naturaleza del amor y la melancolía, haciendo de ella una lectura conmovedora y significativa. ",
-    "imagen": "public/img/pais-de-nieve.png",
+    "imagen": "/img/pais-de-nieve.png",
     "precio": "$20.00"
   },
   {
     "nombre": "Drácula",
     "autor":"Bram Stoker",
     "descripcion": "Fue publicada en 1897 y es una de las novelas góticas más famosas de todos los tiempos. Esta obra presenta al icónico personaje del Conde Drácula, un vampiro que se convierte en el arquetipo de las historias de terror y sobrenaturales. La novela explora temas de miedo, seducción y lucha entre el bien y el mal, mientras introduce al lector en un oscuro mundo de misterio y horror. Además de su inquietante atmósfera, Drácula también ofrece una crítica social sobre temas como la moralidad, la sexualidad, la xenofobia y el conflicto entre la ciencia y lo sobrenatural en una época de grandes cambios sociales en Inglaterra. La novela ha tenido un impacto duradero en la cultura popular y ha inspirado numerosas adaptaciones en cine, teatro y literatura. Es un clásico imprescindible del género de terror y gótico, que sigue cautivando a lectores y continúa siendo relevante por su habilidad para explorar los miedos humanos y la fascinación por lo desconocido. ",
-    "imagen": "public/img/dracula.png",
+    "imagen": "/img/dracula.png",
     "precio": "$14.00"
   },
   {
     "nombre": "Crimen y castigo",
     "autor":"Fiódor Dostoyevski",
     "descripcion": "Es una novela publicada por primera vez en 1866. Esta obra maestra de la literatura rusa es un profundo estudio psicológico sobre la moralidad, la culpa y la redención, explorando la lucha interna de un hombre atrapado entre su ambición y su conciencia. No es solo una historia de suspenso y crimen, sino un análisis profundo de la mente humana y los dilemas morales. La novela continúa siendo relevante por su exploración de temas universales y la complejidad de sus personajes, ofreciendo una reflexión atemporal sobre el bien, el mal y las consecuencias de nuestros actos.",
-    "imagen": "public/img/crimen-y-castigo.png",
+    "imagen": "/img/crimen-y-castigo.png",
     "precio": "$21.00"
   },
   {
     "nombre": "Noches Blancas",
     "autor":"Fiódor Dostoyevski",
     "descripcion": "Es una novela de 1848. Ambientada en San Petersburgo durante las llamadas noches blancas —el fenómeno natural en el que el sol apenas se pone y la noche es luminosa—, la historia explora temas de amor, soledad y esperanza a través de la experiencia de un soñador solitario que anhela escapar de su rutina y encontrar conexión humana. La novela es a la vez una oda al amor idealizado y una reflexión sobre la naturaleza de los sueños y las esperanzas no cumplidas. Ha sido elogiada por su delicadeza emocional y su capacidad para capturar el sentimiento de anhelo humano, convirtiéndola en una obra profunda y melancólica dentro del repertorio de Dostoyevski.",
-    "imagen": "public/img/noches-blancas.png",
+    "imagen": "/img/noches-blancas.png",
     "precio": "$13.00"
   },
   {
     "nombre": "La Metamorfosis",
     "autor":"Franz Kafka",
     "descripcion": "Es una de las obras más célebres de Kafka, publicada por primera vez en 1915. Este relato corto, considerado un clásico de la literatura moderna, explora temas de alienación, identidad y el absurdo de la existencia humana a través de la transformación de su protagonista, Gregor Samsa. El estilo de Kafka es característico por su prosa precisa y evocadora, así como por la atmósfera surrealista y onírica que impregna la obra. La ambigüedad del final de la historia, donde Gregor muere y la familia finalmente se siente liberada de su presencia, deja al lector reflexionando sobre la naturaleza de la existencia y la complejidad de las relaciones humanas. Es un texto fundamental en la literatura y continúa siendo objeto de estudio y análisis por su profunda exploración de la condición humana, así como por su capacidad para resonar en el contexto de la alienación y la crisis de identidad en el mundo contemporáneo. ",
-    "imagen": "public/img/la-metamorfosis.png",
+    "imagen": "/img/la-metamorfosis.png",
     "precio": "$15.00"
   },
   {
     "nombre": "Cuentos y Relatos",
     "autor":"Edgar Allan Poe",
     "descripcion": "Esta es una colección de obras que reúne algunos de los relatos más emblemáticos del maestro del horror y el misterio estadounidense. Publicados a lo largo de su carrera en el siglo XIX, los cuentos de Poe exploran temas como la muerte, el amor, la locura, el miedo y lo sobrenatural, a menudo utilizando un estilo poético y atmosférico que ha influido en numerosos escritores y géneros literarios. Los cuentos de Poe a menudo combinan elementos de horror gótico y romanticismo, creando atmósferas intensas y inquietantes que sumergen al lector en las profundidades de la psicología humana y la existencia. Su uso del simbolismo, la ironía y el realismo mágico contribuyen a la riqueza de su narrativa. Cuentos y relatos de Poe no solo ofrece entretenimiento, sino también una reflexión profunda sobre la naturaleza del miedo, la muerte y la condición humana, asegurando su lugar como un pilar en la literatura estadounidense y en el desarrollo del género de horror. Las obras de Poe continúan siendo estudiadas y adaptadas, manteniendo su relevancia en la cultura contemporánea. ",
-    "imagen": "public/img/cuentos-y-relatos.png",
+    "imagen": "/img/cuentos-y-relatos.png",
     "precio": "$17.00"
   },
   {
     "nombre": "La Naranja Mecánica",
     "autor":"Anthony Burgess",
     "descripcion": "Es una novela distópica publicada por primera vez en 1962. Esta obra ha ganado notoriedad no solo por su contenido provocador, sino también por su exploración de la violencia, la libertad y el control social. La novela se desarrolla en una sociedad futurista donde la delincuencia y la violencia son comunes, y sigue la vida de Alex, un joven líder de una banda de delincuentes. Ha sido objeto de controversia y análisis desde su publicación, y se ha adaptado al cine en una famosa película de Stanley Kubrick en 1971. La adaptación cinematográfica ha contribuido a la popularidad de la obra, aunque también ha sido criticada por su interpretación del material original. Es una reflexión profunda sobre la violencia, el libre albedrío y la moralidad en una sociedad en crisis, y sigue siendo un texto influyente en la literatura contemporánea, invitando a la reflexión sobre la naturaleza de la violencia y la capacidad humana para el cambio. ",
-    "imagen": "public/img/la-naranja-mecanica.png",
+    "imagen": "/img/la-naranja-mecanica.png",
     "precio": "$19.00"
   },
   {
     "nombre": "1984",
     "autor":"George Orwell",
     "descripcion": "Es una novela distópica publicada en 1949. La obra se ha convertido en un referente del género y un poderoso comentario sobre la vigilancia, la opresión y la manipulación del lenguaje en una sociedad totalitaria. La historia se desarrolla en un futuro sombrío, en un estado ficticio llamado Oceanía, donde el gobierno, liderado por el Partido y su figura emblemática el Gran Hermano, ejerce un control absoluto sobre la vida de los ciudadanos. No solo es una obra de ficción, sino una crítica profunda al totalitarismo, la censura, y la manipulación de la verdad. Orwell explora los peligros de un gobierno autoritario y las formas en que puede deshumanizar a la sociedad. A través de su representación de la vigilancia estatal y la pérdida de la individualidad, la novela ofrece advertencias sobre el poder y la corrupción, resonando en contextos políticos y sociales contemporáneos. El impacto de 1984 ha sido tan significativo que ha dado lugar a conceptos como Gran Hermano, doblepensar  y neolengua, que se han incorporado al vocabulario político y cultural. La obra continúa siendo relevante y es estudiada ampliamente en el ámbito literario y político, invitando a la reflexión sobre la libertad, la verdad y el futuro de la sociedad.",
-    "imagen": "public/img/1984.png",
+    "imagen": "/img/1984.png",
     "precio": "$20.00"
   }
 ]
