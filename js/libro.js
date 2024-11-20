@@ -31,7 +31,7 @@ async function renderCards() {
       <div class="card-container--info">
         <p class="book-title">${libro.nombre}</p>
         <p class="book-price">${libro.precio}</p>
-        <img src="./img/trashIcon.png" alt="" class="delete-icon" data-id="${libro.id}">        
+        <img src=".public/img/trashIcon.png" alt="" class="delete-icon" data-id="${libro.id}">        
       </div>
     `;
 
