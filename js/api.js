@@ -8,8 +8,14 @@ export async function getLibro() {
     return await response.json();
   } catch (error) {
     console.error('Error:', error);
+    return [];
   }
 }
+
+const baseUrl = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://tu-api-en-vercel.vercel.app';
+
+const response = await fetch(`${baseUrl}/libro`);
+
 
 // Agregar un nuevo libro
 export async function enviarLibro(data) {
@@ -36,7 +42,7 @@ export async function enviarLibro(data) {
 // Eliminar un libro
 export async function deleteLibro(id) {
   try {
-    const response = await fetch(`http://localhost:3000/libros`, {
+    const response = await fetch(`http://localhost:3000/libro/${id}`, {
       method: 'DELETE',
     });
 

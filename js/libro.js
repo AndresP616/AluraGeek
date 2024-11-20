@@ -27,7 +27,7 @@ async function renderCards() {
     card.setAttribute('data-id', libro.id);
 
     card.innerHTML = `
-      <img src="${libro.imagen}" alt="${libro.nombre}">
+      <img src="/img/${libro.imagen}" alt="${libro.nombre}">
       <div class="card-container--info">
         <p class="book-title">${libro.nombre}</p>
         <p class="book-price">${libro.precio}</p>
@@ -50,7 +50,7 @@ async function renderCards() {
       const libroId = libro.id;
       const success = await deleteLibro(libroId);
       if (success) {
-        card.remove();
+        setTimeout(() => card.remove(), 200);
       }
     });
 
